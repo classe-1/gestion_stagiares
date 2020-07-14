@@ -14,3 +14,5 @@
 <meta property="og:image" content="<?= WEBSITE_FACEBOOK_IMAGE ?>" />
 <!--CSS styles-->
 <link rel="stylesheet" href="assets/styles/css/styles.css" />
+<link rel="stylesheet" href="assets/vendors/css//bootstrap.css" />
+
