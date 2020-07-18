@@ -15,4 +15,5 @@
 <!--CSS styles-->
 <link rel="stylesheet" href="assets/styles/css/styles.css" />
 <link rel="stylesheet" href="assets/vendors/css//bootstrap.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
