@@ -1,22 +1,6 @@
 (function ($) {
     "use strict";
 
-  
-    /*-------------------------------------
-    After Load All Content Add a Class
-    -------------------------------------*/
-
-    window.onload = addNewClass();
-
-    function addNewClass() {
-        $('.fxt-template-animation').imagesLoaded().done(function (instance) {
-            $('.fxt-template-animation').addClass('loaded');
-        });
-    }
-    
-    /*-------------------------------------
-    Toggle Class
-    -------------------------------------*/
     $(".toggle-password").on('click', function() {
         $(this).toggleClass("fa-eye fa-eye-slash");
         var input = $($(this).attr("toggle"));
@@ -27,11 +11,5 @@
         }
     });
 
-    /*-------------------------------------
-    Youtube Video
-    -------------------------------------*/   
-    if ($.fn.YTPlayer !== undefined && $("#fxtVideo").length) { 
-        $("#fxtVideo").YTPlayer({useOnMobile:true});
-    }
-
+  
 })(jQuery);

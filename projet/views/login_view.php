@@ -9,17 +9,17 @@
 
 <body>
   
-<section class="fxt-template-animation fxt-template-layout9">      
+<section class="fxt-layout">      
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-3">
                     <div class="fxt-header">
-                        <a href="login-9.html" class="fxt-logo"><img src="img/logo-9.png" alt="Logo"></a> 
+                       <img src="assets/images/logo.png" alt="Logo">
                     </div>                
                 </div>                
                 <div class="col-lg-6">
                     <div class="fxt-content"> 
-                        <h2>Login into your account</h2>
+                        <h2>Connectez-vous à votre compte</h2>
                         <div class="fxt-form"> 
                             <form method="POST">
                                 <div class="form-group"> 
@@ -38,32 +38,28 @@
                                         <div class="fxt-checkbox-area">
                                             <div class="checkbox">
                                                 <input id="checkbox1" type="checkbox">
-                                                <label for="checkbox1">Keep me logged in</label>
+                                                <label for="checkbox1">Rester connecté</label>
                                             </div>
-                                            <a href="forgot-password-9.html" class="switcher-text">Forgot Password</a>
+                                            <a href="forgot-password.php" class="switcher-text">Mot de passe oublié</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="fxt-transformY-50 fxt-transition-delay-4">  
-                                        <button type="submit" class="fxt-btn-fill">Log in</button>
+                                        <button type="submit" class="fxt-btn-fill">Connecter</button>
                                     </div>
                                 </div>
                             </form> 
                         </div>
-                        <div class="fxt-footer">
-                            <div class="fxt-transformY-50 fxt-transition-delay-9">  
-                                <p>Don't have an account?<a href="register-9.html" class="switcher-text2">Register</a></p>
-                            </div> 
-                        </div> 
                     </div>
                 </div>
             </div>
         </div>
     </section>    
 
-</body>
 <?php include_once 'views/includes/footer.php'; ?>
+</body>
+
 
 
 </html>
