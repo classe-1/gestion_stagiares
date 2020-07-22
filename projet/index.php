@@ -14,7 +14,7 @@ if(isset($_GET['page']) and !empty($_GET['page'])){
 
 else {
 
-    $page = 'secretaire';
+    $page = 'login';
 }
 
 
