@@ -14,7 +14,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-3">
                     <div class="fxt-header">
-                   <img src="assets/images/logo.png" alt="Logo">
+                    <a href="index.php?page=login" class="fxt-logo"><img src="assets/images/logo.png" alt="Logo"></a>
                     </div>                
                 </div>                
                 <div class="col-lg-6">

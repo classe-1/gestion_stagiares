@@ -34,7 +34,7 @@ html {
   h4,
   h5,
   h6 {
-    font-weight: 400;
+    font-weight:bold;
     font-family: 'Roboto', sans-serif;
     margin: 0 0 20px 0;
     color: #111;
@@ -119,9 +119,7 @@ html {
       font-size: 16px;
     }
   }
-  /*=======================================================================
-  2. Template Default Style
-  =========================================================================*/
+
   a {
     text-decoration: none;
   }
@@ -220,7 +218,7 @@ html {
     border-left: 2px solid rgba(111, 117, 182, 0.5);
   }
   @media only screen and (max-width: 991px) {
-    .fxt-layout.fxt-content {
+    .fxt-layout  .fxt-content {
       padding-left: 0;
       margin-left: 0;
       margin-top: 40px;
@@ -232,6 +230,7 @@ html {
   .fxt-layout .fxt-content h2 {
     font-size: 20px;
     color: #fff;
+    font-weight: bold;
   }
   @media only screen and (max-width: 991px) {
     .fxt-layout .fxt-content h2 {

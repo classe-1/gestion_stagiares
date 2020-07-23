@@ -14,7 +14,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-3">
                     <div class="fxt-header">
-                       <img src="assets/images/logo.png" alt="Logo">
+                    <a href="index.php?page=login" class="fxt-logo"><img src="assets/images/logo.png" alt="Logo"></a>
                     </div>                
                 </div>                
                 <div class="col-lg-6">
@@ -40,7 +40,7 @@
                                                 <input id="checkbox1" type="checkbox">
                                                 <label for="checkbox1">Rester connecté</label>
                                             </div>
-                                            <a href="forgot-password.php" class="switcher-text">Mot de passe oublié</a>
+                                            <a href="index.php?page=forgot-password" class="switcher-text">Mot de passe oublié</a>
                                         </div>
                                     </div>
                                 </div>
